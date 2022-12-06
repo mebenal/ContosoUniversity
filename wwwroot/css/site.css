@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header, .navbar {
+    background-color: forestgreen !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.footer {
+    background-color: lightgreen !important;
+}
+
+body {
+    background-color: lightgray !important;
+}
+
+.text_muted {
+    color: darkgray !important;
+}
